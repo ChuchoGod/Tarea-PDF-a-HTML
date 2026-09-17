@@ -1,13 +1,22 @@
 body{
     font-family: Arial;
-    margin-left: 113.4px;
-    margin-right: 113.4px;
     margin-top: 94.5px;
     margin-bottom: 94.5px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-p{
-    font-size: 24px;
+div{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+p,
+ul,
+h1{
+    font-size: 16px;
 }
 
 .titulo{
