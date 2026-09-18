@@ -1,53 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PDF</title>
+    <title>Programación Web</title>
     <link rel="stylesheet" href="css/pdf.css">
 </head>
 <body>
-    <div class="titulo">
-    <h1 class="red">INSTITUTO TECNOLOGICO DE MERIDA</h1>
-    <h1 class="yellow">PROGRAMACION WEB</h1>
+    <div class="contenedor encabezado">
+        <h1 class="rojo">INSTITUTO TECNOLOGICO DE MERIDA</h1>
+        <h1 class="amarillo">PROGRAMACION WEB</h1>
     </div>
-    <br>
-    <div class="que_es">
-        <h1 class="titulo">Que es el Internet</h1>
+
+    <div class="contenedor seccion formato-compacto">
+        <h2 class="titulo-seccion">Que es el Internet</h2>
         <p>
             Una red mundial que conecta millones de computadoras y que da acceso a miles de millones de documentos contenidos en ellos.
         </p>
         <p>
-           El Internet puede transmitir datos textuales, sonoros gráficos e incluso audiovisuales en formatos muy 
-diferentes. Los distintos formatos se denotan mediante extensiones específicas y varían en función del 
-grado de compresión de los datos (los datos son frecuentemente comprimidos para facilitar su envío por 
-la red).
+            El Internet puede transmitir datos textuales, sonoros gráficos e incluso audiovisuales en formatos muy diferentes. Los distintos formatos se denotan mediante extensiones específicas y varían en función del grado de compresión de los datos (los datos son frecuentemente comprimidos para facilitar su envío por la red).
         </p>
-        <p class="sinsaltodelinea">
-            Básicamente,
-        </p>
-        <div class="sinsaltodelinea titulo">
-        <p>
-            la
-        </p>
-        <p class="red">
-             WWW          
-        </p>
-        <p>
-            es:
-        </p>
-        </div>
-        <ul>
-            <li>
-                Un modelo de navegar por la Internet
-            </li>
-            <li>
-                Un sistema de distribución y gestión de la información
-            </li>
-            <li>
-                Un herramienta extraordinaria para facilitar la comunicación personal y de masas
-            </li>
+        <p class="negrita">Básicamente, la <span class="rojo">WWW</span> es:</p>
+        <ul class="lista">
+            <li>Un modelo de navegar por la Internet</li>
+            <li>Un sistema de distribución y gestión de la información</li>
+            <li>Una herramienta extraordinaria para facilitar la comunicación personal y de masas</li>
         </ul>
+    </div>
+
+    <div class="contenedor seccion formato-compacto">
+        <h2 class="titulo-seccion">Servidores</h2>
+        <p>Son ordenadores que tienen información siempre disponible y la ofrecen de forma <span class="negrita">restringida</span> (con identidad de usuario y contraseña) o <span class="negrita">pública</span> (anónima) a un número limitado de usuarios concurrentes.</p>
+    </div>
+
+    <div class="contenedor seccion formato-compacto">
+        <h2 class="titulo-seccion">Clientes</h2>
+        <p>Son ordenadores que se conectan con ayuda de un software (<span class="cursiva">browser</span> o navegador) adecuado a los servidores, que nos permiten ver la información que contienen y traérnosla a la pantalla, si nos interesa.</p>
+    </div>
+
+    <div class="contenedor seccion formato-compacto">
+        <h2 class="titulo-seccion">TCP/IP</h2>
+        <p>El TCP/IP es un lenguaje de transmisión de datos que puede entender cualquier ordenador, sea de la marca que sea. Las direcciones del emisor y el receptor deben estar especificadas sin dejar lugar alguno para la confusión. Eso se consigue mediante <span class="negrita">DNS.</span></p>
+        <p class="subrayado-amarillo">El protocolo TCP/IP permite básicamente tres tipos de operaciones:</p>
+        <ul class="lista">
+            <li class="negrita">El correo electrónico</li>
+            <li class="negrita">El telnet</li>
+            <li class="negrita">FTP (File Transfer Protocol)</li>
+        </ul>
+    </div>
+
+    <div class="contenedor seccion formato-amplio">
+        <h2 class="titulo-seccion">Estándares de comunicación y visualización</h2>
+        <p>La <span class="rojo negrita">www</span> descansa sobre un <span class="negrita">código de comunicación</span> común que funciona sobre los <span class="rojo negrita">protocolos TCP/IP</span> y que tiene <span class="negrita">tres pilares fundamentales:</span></p>
+        <ol class="lista numerada">
+            <li>La denominación normalizada y única de cualquier documento legible por el ordenador, sea un archivo o un programa, y sea cual sea su formato específico, <span class="amarillo negrita">denominada URL (Universal Resource Locator , Localizador universal de recursos)</span></li>
+            <li>Un protocolo de intercambio de archivos entre los <span class="negrita">servidores www</span> y los <span class="negrita">clientes www</span> (browsers), denominado <span class="amarillo negrita">HTTP (Hypertext Transport Protocol)</span></li>
+            <li>Lenguaje normalizado de edición, y por tanto de presentación en los browsers de documentos hipertextuales, que se conoce como <span class="amarillo negrita">HTML (Hypertext Markup Language)</span></li>
+        </ol>
+    </div>
+
+    <div class="contenedor seccion formato-amplio">
+        <h2 class="titulo-seccion">Hipertexto:</h2>
+        <p>Hipertexto significa más allá del texto o superación del texto.</p>
+        <p>Efectivamente, el hipertexto quiere ser una alternativa a la lectura tradicional, pues enfrenta a la lectura secuencial del texto la posibilidad de moverse libremente dentro de un texto y a lo largo de multitud de textos a través de sus palabras clave (vínculos o <span class="cursiva">links</span>).</p>
+    </div>
+
+    <div class="contenedor seccion formato-amplio">
+        <h2 class="titulo-seccion">Que es HTML:</h2>
+        <p>El HTML (Hyper Text Markup Language) es el lenguaje con el que se escriben las páginas web. Es un lenguaje de hipertexto, es decir, un lenguaje que permite escribir texto de forma estructurada, y que está compuesto por etiquetas, que marcan el inicio y el fin de cada elemento del documento.</p>
+        <p>Un documento hipertexto no sólo se compone de texto, puede contener imágenes, sonido, vídeos, etc., por lo que el resultado puede considerarse como un documento multimedia.</p>
+        <p>Los documentos HTML deben tener la extensión html o htm, para que puedan ser visualizados en los navegadores o browser.</p>
+    </div>
+
+    <div class="contenedor seccion formato-amplio">
+        <h2 class="titulo-seccion">Organización de una web</h2>
+        <p>Para hacer una buena presentación Web lo ideal es crearnos un boceto inicial de la estructura. Si hacemos esto, no solo estamos procurando una presentación agradable y facilitando la tarea de navegar sino que también nos facilitamos el mantenimiento de futuras revisiones y modificaciones.</p>
+    </div>
+
+    <div class="contenedor seccion formato-amplio">
+        <h2 class="titulo-seccion">Contenidos</h2>
+        <p>Una vez tenemos los objetivos, hay que organizar el contenido por temas o secciones, que se ajusten a los objetivos de la empresa o cliente, reuniendo la información necesaria para causar un buen impacto en los usuarios.</p>
+        <p>Es conveniente que los temas sean razonablemente cortos y si fuera necesario divida en subtemas. Si por el contrario tenemos temas muy cortos, lo correcto sería agruparlos bajo un encabezado de tema algo más general.</p>
+    </div>
+
+    <div class="contenedor seccion formato-amplio">
+        <h2 class="titulo-seccion">Los navegadores</h2>
+        <p>Como hemos dicho, el navegador instalado en el ordenador del usuario es el que interpreta el código HTML de la página que visita por lo que a veces puede ocurrir que dos usuarios visualicen la misma página de forma distinta porque tienen instalados navegadores distintos o incluso versiones distintas del mismo navegador.</p>
+        <p>Los navegadores tienen que ser compatibles con la última versión HTML para poder interpretar el mayor número posible de etiquetas.</p>
+    </div>
+
+    <div class="contenedor seccion formato-amplio">
+        <h2 class="titulo-seccion">Editores</h2>
+        <p>Un editor es un programa que nos permite redactar documentos. Hoy en día existe un gran número de editores que permiten crear páginas web sin la necesidad de escribir ni una sola línea de código HTML. Estos editores disponen de un entorno visual y generan automáticamente el código de las páginas.</p>
+        <p>Algunos de estos editores visuales con los que podrás crear tus páginas web son:</p>
+        <ol class="lista numerada">
+            <li>Macromedia Dreamweaver</li>
+            <li>Microsoft Frontpage</li>
+            <li>Adobe Pagemill</li>
+            <li>NetObjects Fusion</li>
+            <li>CutePage</li>
+            <li>Otros</li>
+        </ol>
+    </div>
+
+    <div class="contenedor seccion formato-amplio">
+        <h2 class="titulo-seccion">Etiquetas</h2>
+        <p>Las etiquetas o marcas delimitan cada uno de los elementos que componen un documento HTML: existen dos tipos de etiquetas, la de comienzo de elemento y la de fin o cierre de elemento.</p>
+        <p>La etiqueta de comienzo está delimitada por los caracteres <span class="negrita">&lt; <span class="rojo">nombre de la etiqueta</span> &gt;</span>. Está compuesta por el identificador o nombre de la etiqueta, y puede contener una serie de atributos opcionales que permiten añadir ciertas propiedades:</p>
+        <p>Su sintaxis es: &lt; <span class="rojo negrita">nombre de la etiqueta</span> &nbsp; atributos1&nbsp; atributo 2... &nbsp;&gt;</p>
+        <p>La etiqueta de final está delimitada por los caracteres <span class="negrita rojo">&lt;/ nombre de la etiqueta &gt;</span>. Está compuesta por el identificador o nombre de la etiqueta, y no contiene atributos.</p>
+        <p>Su sintaxis es: <span class="rojo negrita">&lt;/nombre de la etiqueta&gt;</span></p>
+        <p>Cada uno de los elementos de la página se encuentran entre una etiqueta de comienzo y su correspondiente etiqueta de cierre, a excepción de algunos elementos que no necesitan etiqueta de cierre.</p>
+        <p>También es posible anidar etiquetas.</p>
+    </div>
+
+    <div class="contenedor seccion formato-amplio">
+        <h2 class="titulo-seccion">Marquesinas</h2>
+        <p>Las marquesinas son líneas de texto que pueden desplazarse de un lado a otro de la ventana en forma de línea horizontal o verticalmente.</p>
     </div>
 </body>
 </html>

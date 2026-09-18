@@ -1,43 +1,85 @@
-body{
-    font-family: Arial;
-    margin-top: 94.5px;
-    margin-bottom: 94.5px;
-    margin-left: 20px;
-    margin-right: 20px;
+body {
+    margin: 0;
+    padding: 94.5px 20px;
+    color: #000000;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
 }
 
-div{
-    width: 100%;
-    max-width: 1200px;
+.contenedor {
+    width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
 }
 
-p,
-ul,
-h1{
+.encabezado {
+    text-align: center;
+}
+
+.encabezado h1 {
+    margin: 0;
     font-size: 16px;
 }
 
-.titulo{
+.seccion {
+    margin-top: 24px;
+}
+
+.formato-compacto p,
+.formato-compacto ul,
+.formato-compacto ol,
+.formato-compacto h2 {
+    font-size: 16px;
+    line-height: 1.35;
+}
+
+.formato-amplio p,
+.formato-amplio ul,
+.formato-amplio ol,
+.formato-amplio h2 {
+    font-size: 24px;
+    line-height: 1.35;
+}
+
+.titulo-seccion {
+    margin: 0 0 16px;
     font-weight: bold;
 }
 
-.red{
+.negrita {
+    font-weight: bold;
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+.rojo {
     color: rgb(192, 0, 0);
-    text-align: center;
 }
 
-.yellow{
+.amarillo {
     color: rgb(255, 192, 0);
-    text-align: center;
 }
 
-.sinsaltodelinea{
-    display: inline;
+.subrayado-amarillo {
+    color: rgb(255, 192, 0);
+    text-decoration: underline;
 }
 
-.sinsaltodelinea p{
-    display: inline;
-    margin: 0;
+.lista {
+    margin-top: 0;
+    padding-left: 40px;
+}
+
+.numerada {
+    list-style-type: decimal;
+}
+
+@media (max-width: 1240px) {
+    body {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
 }
