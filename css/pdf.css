@@ -3,7 +3,8 @@ body {
     padding: 94.5px 20px;
     color: #000000;
     background-color: #ffffff;
-    font-family: Arial, sans-serif;
+    font-family: Arial;
+    font-size: 24px;
 }
 
 .contenedor {
@@ -19,31 +20,16 @@ body {
 
 .encabezado h1 {
     margin: 0;
-    font-size: 16px;
+    font-size: 24px;
 }
 
 .seccion {
     margin-top: 24px;
 }
 
-.formato-compacto p,
-.formato-compacto ul,
-.formato-compacto ol,
-.formato-compacto h2 {
-    font-size: 16px;
-    line-height: 1.35;
-}
-
-.formato-amplio p,
-.formato-amplio ul,
-.formato-amplio ol,
-.formato-amplio h2 {
-    font-size: 24px;
-    line-height: 1.35;
-}
-
 .titulo-seccion {
     margin: 0 0 16px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -75,11 +61,4 @@ body {
 
 .numerada {
     list-style-type: decimal;
-}
-
-@media (max-width: 1240px) {
-    body {
-        padding-right: 16px;
-        padding-left: 16px;
-    }
 }
